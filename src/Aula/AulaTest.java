@@ -9,22 +9,22 @@ public class AulaTest {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Valor da nota1: ");
-        aluno.nota1 = entrada.nextInt();
+        aluno.nota1 = entrada.nextDouble();
 
         System.out.print("Valor da nota2: ");
-        aluno.nota2 = entrada.nextInt();
+        aluno.nota2 = entrada.nextDouble();
 
         System.out.print("Valor da nota3: ");
-        aluno.nota3 = entrada.nextInt();
+        aluno.nota3 = entrada.nextDouble();
 
         System.out.print("Valor da nota4: ");
-        aluno.nota4 = entrada.nextInt();
+        aluno.nota4 = entrada.nextDouble();
 
         System.out.print("Quantidade de aulas: ");
-        aluno.totalAulas = entrada.nextInt();
+        aluno.totalAulas = entrada.nextDouble();
 
         System.out.print("Quantidade de faltas: ");
-        aluno.faltas = entrada.nextInt();
+        aluno.faltas = entrada.nextDouble();
 
         aluno.notaFianl();
         aluno.mediaPresenca();
