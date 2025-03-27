@@ -1,4 +1,4 @@
-package Aula;
+package Aula.Dominio;
 
 public class Professor {
 

@@ -1,4 +1,4 @@
-package Aula;
+package Aula.Dominio;
 
 public class Aluno {
 
@@ -22,7 +22,7 @@ public class Aluno {
 
     public void mediaPresenca() {
         double mediaPresenca = (faltas / totalAulas) * 100;
-        if (mediaPresenca <= 0.75) {
+        if (mediaPresenca <= 75) {
             System.out.println("Reprovado: " + mediaPresenca);
         } else {
             System.out.println("Aprovado: " + mediaPresenca);

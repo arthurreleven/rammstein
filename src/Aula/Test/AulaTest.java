@@ -1,4 +1,7 @@
-package Aula;
+package Aula.Test;
+
+import Aula.Dominio.Aluno;
+import Aula.Dominio.Professor;
 
 import java.util.Scanner;
 
