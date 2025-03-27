@@ -8,17 +8,17 @@ public class AulaTest {
         Aluno aluno = new Aluno();
         Scanner entrada = new Scanner(System.in);
 
-//        System.out.print("Valor da nota1: ");
-//        aluno.nota1 = entrada.nextInt();
-//
-//        System.out.print("Valor da nota2: ");
-//        aluno.nota2 = entrada.nextInt();
-//
-//        System.out.print("Valor da nota3: ");
-//        aluno.nota3 = entrada.nextInt();
-//
-//        System.out.print("Valor da nota4: ");
-//        aluno.nota4 = entrada.nextInt();
+        System.out.print("Valor da nota1: ");
+        aluno.nota1 = entrada.nextInt();
+
+        System.out.print("Valor da nota2: ");
+        aluno.nota2 = entrada.nextInt();
+
+        System.out.print("Valor da nota3: ");
+        aluno.nota3 = entrada.nextInt();
+
+        System.out.print("Valor da nota4: ");
+        aluno.nota4 = entrada.nextInt();
 
         System.out.print("Quantidade de aulas: ");
         aluno.totalAulas = entrada.nextInt();
@@ -26,10 +26,8 @@ public class AulaTest {
         System.out.print("Quantidade de faltas: ");
         aluno.faltas = entrada.nextInt();
 
-//        aluno.notaFianl();
+        aluno.notaFianl();
         aluno.mediaPresenca();
-
-
 
 
     }
