@@ -4,25 +4,24 @@ public class Professor {
 
     public double totalAlunos;
     public double alunosAprovados;
-    public Aluno aluno;
+    public double totalAulas;
 
     public void promocao() {
-        double mediaAprovados = ((totalAlunos - alunosAprovados) / totalAlunos) * 100;
-        if (mediaAprovados >=75){
+        double mediaAprovados = (  alunosAprovados / totalAlunos) * 100;
+        if (mediaAprovados >= 75) {
             System.out.println("Professor promovido...");
-        }else {
+        } else {
             System.out.println("Não promovido");
         }
     }
 
-    public void bonificacao(){
-        if (aluno.totalAulas >=30){
+    public void bonificacao() {
+        if (totalAulas >= 30) {
             System.out.println("Direito a bonificação...");
-        }else {
+        } else {
             System.out.println("Sem direito a bonificação...");
         }
     }
-
 
 
 }

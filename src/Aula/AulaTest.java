@@ -44,7 +44,7 @@ public class AulaTest {
                 professor.alunosAprovados = entrada.nextDouble();
 
                 System.out.print("Digite a quantidade de aulas: ");
-                professor.aluno.totalAulas = entrada.nextDouble();
+                professor.totalAulas = entrada.nextDouble();
 
                 professor.promocao();
                 professor.bonificacao();
