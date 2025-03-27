@@ -9,10 +9,10 @@ public class AulaTest {
         System.out.println("Menu:\n1 - Aluno\n2 - Professor");
         int opcao = validador();
 
+
         switch (opcao) {
             case 1:
                 Aluno aluno = new Aluno();
-
                 System.out.print("Valor da nota1: ");
                 aluno.nota1 = entrada.nextDouble();
 
@@ -35,6 +35,22 @@ public class AulaTest {
                 aluno.mediaPresenca();
                 break;
             case 2:
+                Professor professor = new Professor();
+
+                System.out.print("Digite a quantidade total de alunos: ");
+                professor.totalAlunos = entrada.nextDouble();
+
+                System.out.print("Digite a aquantidade de alunos aprovados:");
+                professor.alunosAprovados = entrada.nextDouble();
+
+                System.out.print("Digite a quantidade de aulas: ");
+                professor.aluno.totalAulas = entrada.nextDouble();
+
+                professor.promocao();
+                professor.bonificacao();
+                break;
+
+
 
 
         }
