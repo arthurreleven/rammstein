@@ -1,0 +1,7 @@
+package Aula;
+
+public class m {
+    public static void main(String[] args) {
+        System.out.println("Ta funcionando");
+    }
+}
