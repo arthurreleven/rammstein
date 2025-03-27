@@ -6,6 +6,7 @@ public class AulaTest {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
+        System.out.println("Menu:\n1 - Aluno\n2 - Professor");
         int opcao = validador();
 
         switch (opcao) {
