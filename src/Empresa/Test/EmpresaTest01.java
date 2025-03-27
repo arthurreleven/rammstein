@@ -1,5 +1,6 @@
 package Empresa.Test;
 
+import Empresa.Dominio.Cliente;
 import Empresa.Dominio.Funcionario;
 
 import java.util.Scanner;
@@ -31,6 +32,25 @@ public class EmpresaTest01 {
                 funcionario.aumentoSalario();
                 funcionario.promoverFuncionario();
                 funcionario.demitirFuncionario();
+                break;
+
+            case 2:
+                Cliente cliente = new Cliente();
+
+                System.out.print("Digite o nome do cliente: ");
+                cliente.nome = entrada.nextLine();
+
+                System.out.print("Digite a idade do cliente: ");
+                cliente.idade = entrada.nextInt();
+
+                System.out.print("Digite a quantidade de filhos: ");
+                cliente.filhos = entrada.nextInt();
+
+                System.out.print("Digite a sua renda: ");
+                cliente.renda = entrada.nextDouble();
+
+                cliente.fidelizar();
+                cliente.desconto();
                 break;
         }
 
