@@ -16,8 +16,10 @@ public class Cliente {
     }
 
     public void desconto() {
-        if (idade > 35 && filhos > 2){
+        if (idade > 35 && filhos > 2) {
             System.out.println("Desconto para o Sr(a): " + nome);
+        } else {
+            System.out.println("O Sr(a) " + nome + " não obteve desconto");
         }
     }
 
