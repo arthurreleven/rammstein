@@ -11,25 +11,26 @@ public class Funcionario {
     public void aumentoSalario() {
         if (salario >= 1500 && idade > 27) {
             salario = salario * 0.25;
+            System.out.println(nome + " teve um aumento de: R$" + salario);
         } else {
-            System.out.println(nome + "Não teve aumento...");
+            System.out.println(nome + " Não teve aumento...");
         }
     }
 
     public void promoverFuncionario() {
 
         if (tempoServico > 5 && idade > 32) {
-            System.out.println(nome + "Gerente do setor...");
+            System.out.println(nome + " agora é gerente do setor...");
         } else {
-            System.out.println(nome + "Não conseguiu a promoção...");
+            System.out.println(nome + " não conseguiu a promoção...");
         }
     }
 
     public void demitirFuncionario() {
         if (idade > 55 & filhos < 2 && tempoServico < 10) {
-            System.out.println("Demitir " + nome);
+            System.out.println("Demitir funcionario: " + nome);
         } else {
-            System.out.println("Não demitir funcionario...");
+            System.out.println(nome + " Não foi demitido...");
         }
     }
 
