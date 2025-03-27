@@ -16,12 +16,12 @@ public class Aluno {
         if (mediaNotas >= 7) {
             System.out.println("Média final: " + mediaNotas + " Aprovado");
         } else
-            System.out.println("Média fianl: " + mediaNotas + " Reprovado");
+            System.out.println("Média final: " + mediaNotas + " Reprovado");
 
     }
 
     public void mediaPresenca() {
-        double mediaPresenca = (faltas / totalAulas) * 100;
+        double mediaPresenca = ((totalAulas - faltas)/totalAulas) * 100;
         if (mediaPresenca <= 75) {
             System.out.println("Reprovado: " + mediaPresenca);
         } else {
