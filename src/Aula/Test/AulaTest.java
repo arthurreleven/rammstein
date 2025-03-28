@@ -34,8 +34,8 @@ public class AulaTest {
                 System.out.print("Quantidade de faltas: ");
                 aluno.faltas = entrada.nextDouble();
 
-                aluno.notaFianl();
-                aluno.mediaPresenca();
+                aluno.media();
+//                aluno.mediaPresenca();
                 break;
             case 2:
                 Professor professor = new Professor();
