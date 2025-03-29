@@ -24,7 +24,7 @@ public class Carro {
 
     public static void main(String[] args) {
         Carro carro = new Carro();
-        carro.consumoMedio(100, 50);
+        carro.consumoMedio(100, 50); // Testando o funcionamento de metodo.
     }
 
 
