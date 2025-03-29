@@ -2,65 +2,85 @@ Exercício 1: Sistema de Cadastro de Carro e Motorista
 
     Enunciado: Crie um sistema que tenha duas classes: Carro e Motorista. A classe Carro deve ter os seguintes métodos:
 
-        Registrar Carro: O usuário deve informar as características do carro, como modelo, ano e o número de quilômetros rodados.
+    Registrar Carro: O usuário deve informar as características do carro, como modelo, ano e o número de quilômetro1s rodados.
 
-        Calcular Consumo: O carro deve ter um método para calcular o consumo médio de combustível. O usuário deve fornecer a quantidade de combustível consumido e a distância percorrida, e o programa deve calcular o consumo médio em km/l.
+    Calcular Consumo: O carro deve ter um método para calcular o consumo médio de combustível.
+    O usuário deve fornecer a quantidade de combustível consumido e a distância percorrida,
+    e o programa deve calcular o consumo médio em km/l.
 
     A classe Motorista deve ter os seguintes métodos:
 
-        Verificar Idade para Dirigir: O motorista deve ter sua idade informada. O programa deve verificar se a idade do motorista é maior ou igual a 18 anos para que ele possa dirigir.
+    Verificar Idade para Dirigir: O motorista deve ter sua idade informada.
+    O programa deve verificar se a idade do motorista é maior ou igual a 18 anos para que ele possa dirigir.
 
-        Verificar Pontuação da Carteira: O motorista deve ter a pontuação de sua carteira de habilitação informada. Se a pontuação for maior ou igual a 12 pontos, o motorista estará suspenso e não poderá dirigir.
+    Verificar Pontuação da Carteira: O motorista deve ter a pontuação de sua carteira de habilitação informada.
+    Se a pontuação for maior ou igual a 12 pontos, o motorista estará suspenso e não poderá dirigir.
 
     Requisitos:
 
-        O usuário deve fornecer as informações do carro e do motorista.
+                O usuário deve fornecer as informações do carro e do motorista.
 
-        O programa deve exibir se o motorista está apto a dirigir e o consumo médio do carro.
+                O programa deve exibir se o motorista está apto a dirigir e o consumo médio do carro.
+
+
+
 
 Exercício 2: Sistema de Banco com Conta Corrente e Conta Poupança
 
-    Enunciado: Crie um sistema de contas bancárias com duas classes: ContaCorrente e ContaPoupanca. A classe ContaCorrente deve ter os seguintes métodos:
+    Enunciado: Crie um sistema de contas bancárias com duas classes: ContaCorrente e ContaPoupanca.
 
-        Depositar: O usuário deve poder depositar um valor na conta. Caso o saldo seja negativo, o programa deve emitir uma mensagem dizendo que a conta está no negativo.
+    A classe ContaCorrente deve ter os seguintes métodos:
 
-        Sacar: O usuário deve poder sacar um valor da conta. Se o valor for superior ao saldo, o programa deve emitir uma mensagem de erro.
+     Depositar: O usuário deve poder depositar um valor na conta. Caso o saldo seja negativo,
+     o programa deve emitir uma mensagem dizendo que a conta está no negativo.
+
+     Sacar: O usuário deve poder sacar um valor da conta. Se o valor for superior ao saldo,
+     o programa deve emitir uma mensagem de erro.
 
     A classe ContaPoupanca deve ter os seguintes métodos:
 
-        Depositar: O usuário deve poder depositar um valor na conta.
+    Depositar: O usuário deve poder depositar um valor na conta.
 
-        Adicionar Juros: A conta poupança deve ter um método para adicionar juros de 0.5% ao saldo a cada depósito.
+    Adicionar Juros: A conta poupança deve ter um método para adicionar juros de 0.5% ao saldo a cada depósito.
 
     Requisitos:
 
-        O usuário deve escolher entre ContaCorrente ou ContaPoupanca.
+                 O usuário deve escolher entre ContaCorrente ou ContaPoupanca.
 
-        O programa deve permitir que o usuário realize depósitos e saques nas contas.
+                 O programa deve permitir que o usuário realize depósitos e saques nas contas.
 
-        A conta poupança deve calcular e adicionar juros automaticamente a cada depósito.
+                 A conta poupança deve calcular e adicionar juros automaticamente a cada depósito.
+
+
 
 Exercício 3: Sistema de Controle de Estoque
 
-    Enunciado: Crie um sistema de controle de estoque com duas classes: Produto e Fornecedor. A classe Produto deve ter os seguintes métodos:
+    Enunciado: Crie um sistema de controle de estoque com duas classes: Produto e Fornecedor.
 
-        Registrar Produto: O usuário deve fornecer o nome do produto, quantidade em estoque e o preço unitário. O produto será adicionado ao estoque.
+    A classe Produto deve ter os seguintes métodos:
 
-        Vender Produto: O usuário deve fornecer a quantidade de produtos a ser vendida. O estoque deve ser atualizado, e o valor da venda (preço unitário * quantidade vendida) deve ser exibido.
+    Registrar Produto: O usuário deve fornecer o nome do produto, quantidade em estoque e o preço unitário.
+    O produto será adicionado ao estoque.
+
+    Vender Produto: O usuário deve fornecer a quantidade de produtos a ser vendida.
+    O estoque deve ser atualizado, e o valor da venda (preço unitário * quantidade vendida) deve ser exibido.
 
     A classe Fornecedor deve ter os seguintes métodos:
 
-        Adicionar Estoque: O fornecedor deve fornecer o nome do produto e a quantidade a ser adicionada no estoque. O programa deve atualizar o estoque do produto correspondente.
+    Adicionar Estoque: O fornecedor deve fornecer o nome do produto e a quantidade a ser adicionada no estoque.
+    O programa deve atualizar o estoque do produto correspondente.
 
-        Verificar Estoque: O fornecedor pode consultar a quantidade disponível de um produto específico.
+    Verificar Estoque: O fornecedor pode consultar a quantidade disponível de um produto específico.
 
     Requisitos:
 
-        O usuário pode escolher se deseja interagir com o Produto ou o Fornecedor.
+                 O usuário pode escolher se deseja interagir com o Produto ou o Fornecedor.
 
-        O programa deve permitir a venda de produtos e o reabastecimento de estoque.
+                 O programa deve permitir a venda de produtos e o reabastecimento de estoque.
 
-        A quantidade de estoque deve ser atualizada corretamente após cada venda ou reabastecimento.
+                 A quantidade de estoque deve ser atualizada corretamente após cada venda ou reabastecimento.
+
+
 
 Exercício 4: Sistema de Cadastro de Estudante e Disciplina
 
