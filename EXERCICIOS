@@ -1,6 +1,8 @@
 Exercício 1: Sistema de Cadastro de Carro e Motorista
 
-    Enunciado: Crie um sistema que tenha duas classes: Carro e Motorista. A classe Carro deve ter os seguintes métodos:
+    Enunciado: Crie um sistema que tenha duas classes: Carro e Motorista.
+
+    A classe Carro deve ter os seguintes métodos:
 
     Registrar Carro: O usuário deve informar as características do carro, como modelo, ano e o número de quilômetro1s rodados.
 
