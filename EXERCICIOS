@@ -86,42 +86,44 @@ Exercício 4: Sistema de Cadastro de Estudante e Disciplina
 
     Enunciado: Crie um sistema de cadastro para um estudante e suas disciplinas. A classe Estudante deve ter os seguintes métodos:
 
-        Registrar Estudante: O usuário deve fornecer o nome, idade e as notas de cada disciplina que o estudante cursou.
+    Registrar Estudante: O usuário deve fornecer o nome, idade e as notas de cada disciplina que o estudante cursou.
 
-        Calcular Média: O estudante deve ter um método para calcular a média das suas notas e verificar se a média é maior ou igual a 7 para aprovação.
+    Calcular Média: O estudante deve ter um método para calcular a média das suas notas e verificar se a média é maior ou igual a 7 para aprovação.
 
     A classe Disciplina deve ter os seguintes métodos:
 
-        Registrar Disciplina: O usuário deve fornecer o nome da disciplina, carga horária e o professor responsável.
+    Registrar Disciplina: O usuário deve fornecer o nome da disciplina, carga horária e o professor responsável.
 
-        Verificar Aprovação: A disciplina deve ter um método para verificar se o estudante foi aprovado, com base na média de notas obtidas nas provas.
+    Verificar Aprovação: A disciplina deve ter um método para verificar se o estudante foi aprovado,
+    com base na média de notas obtidas nas provas.
 
     Requisitos:
 
-        O programa deve permitir o cadastro de um estudante e de várias disciplinas.
+                O programa deve permitir o cadastro de um estudante e de várias disciplinas.
 
-        A média das notas do estudante deve ser calculada e comparada com 7 para determinar se ele foi aprovado.
+                A média das notas do estudante deve ser calculada e comparada com 7 para determinar se ele foi aprovado.
 
-        O programa deve verificar se o estudante está aprovado em cada disciplina com base na sua média.
+                O programa deve verificar se o estudante está aprovado em cada disciplina com base na sua média.
 
 Exercício 5: Sistema de Reservas de Hotel
 
     Enunciado: Crie um sistema de reservas de hotel com duas classes: Hospede e Quarto. A classe Hospede deve ter os seguintes métodos:
 
-        Reservar Quarto: O usuário deve fornecer os dados do hóspede e escolher um quarto para reservar. A reserva deve ser registrada com as informações do hóspede.
+    Reservar Quarto: O usuário deve fornecer os dados do hóspede e escolher um quarto para reservar.
+    A reserva deve ser registrada com as informações do hóspede.
 
-        Cancelar Reserva: O hóspede pode cancelar sua reserva. O sistema deve verificar se a reserva está ativa e cancelá-la.
+    Cancelar Reserva: O hóspede pode cancelar sua reserva. O sistema deve verificar se a reserva está ativa e cancelá-la.
 
     A classe Quarto deve ter os seguintes métodos:
 
-        Adicionar Quarto: O usuário deve fornecer os dados do quarto (número, tipo e preço).
+    Adicionar Quarto: O usuário deve fornecer os dados do quarto (número, tipo e preço).
 
-        Verificar Disponibilidade: O sistema deve verificar se o quarto escolhido está disponível para reserva.
+    Verificar Disponibilidade: O sistema deve verificar se o quarto escolhido está disponível para reserva.
 
     Requisitos:
 
-        O programa deve permitir o cadastro de hóspedes e quartos.
+                O programa deve permitir o cadastro de hóspedes e quartos.
 
-        O hóspede pode realizar a reserva de um quarto e, se necessário, cancelá-la.
+                O hóspede pode realizar a reserva de um quarto e, se necessário, cancelá-la.
 
-        O programa deve verificar se os quartos estão disponíveis para reserva antes de efetuar a reserva.
+                O programa deve verificar se os quartos estão disponíveis para reserva antes de efetuar a reserva.
