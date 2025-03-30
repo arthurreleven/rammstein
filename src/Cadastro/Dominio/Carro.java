@@ -15,17 +15,14 @@ public class Carro {
     public String modelo;
     public int anoFabricacao;
     public double quilometragem;
+    public double distanciaPercorrida;
+    public double combustivel;
 
-    public double consumoMedio(double distanciaPercorrida, double combustivel) {
-        double kmLitro = distanciaPercorrida / combustivel;
-        System.out.println("Distancia percorrida: " + distanciaPercorrida + "\nQuantidade de compustivel: " + "\n" +kmLitro+"KM");
+
+    public String consumoMedio( ) {
+        double resultado = distanciaPercorrida / combustivel;
+        String kmLitro = String.format("%.2f",resultado);
+        System.out.println("Distancia percorrida: " + distanciaPercorrida + "\nQuantidade de compustivel: " + "\n" +kmLitro+"KM/L");
         return kmLitro;
     }
-
-    public static void main(String[] args) {
-        Carro carro = new Carro();
-        carro.consumoMedio(100, 50); // Testando o funcionamento de metodo.
-    }
-
-
 }

@@ -10,13 +10,6 @@ Exercício 1: Sistema de Cadastro de Carro e Motorista
     O usuário deve fornecer a quantidade de combustível consumido e a distância percorrida,
     e o programa deve calcular o consumo médio em km/l.
 
-    A classe Motorista deve ter os seguintes métodos:
-
-    Verificar Idade para Dirigir: O motorista deve ter sua idade informada.
-    O programa deve verificar se a idade do motorista é maior ou igual a 18 anos para que ele possa dirigir.
-
-    Verificar Pontuação da Carteira: O motorista deve ter a pontuação de sua carteira de habilitação informada.
-    Se a pontuação for maior ou igual a 12 pontos, o motorista estará suspenso e não poderá dirigir.
 
     Requisitos:
 
@@ -33,11 +26,11 @@ Exercício 2: Sistema de Banco com Conta Corrente e Conta Poupança
 
     A classe ContaCorrente deve ter os seguintes métodos:
 
-     Depositar: O usuário deve poder depositar um valor na conta. Caso o saldo seja negativo,
-     o programa deve emitir uma mensagem dizendo que a conta está no negativo.
+    Depositar: O usuário deve poder depositar um valor na conta. Caso o saldo seja negativo,
+    o programa deve emitir uma mensagem dizendo que a conta está no negativo.
 
-     Sacar: O usuário deve poder sacar um valor da conta. Se o valor for superior ao saldo,
-     o programa deve emitir uma mensagem de erro.
+    Sacar: O usuário deve poder sacar um valor da conta. Se o valor for superior ao saldo,
+    o programa deve emitir uma mensagem de erro.
 
     A classe ContaPoupanca deve ter os seguintes métodos:
 
