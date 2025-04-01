@@ -17,22 +17,22 @@ public class AulaTest {
             case 1:
                 Aluno aluno = new Aluno();
                 System.out.print("Valor da nota1: ");
-                aluno.nota1 = entrada.nextDouble();
+                aluno.setNota1(entrada.nextDouble());
 
                 System.out.print("Valor da nota2: ");
-                aluno.nota2 = entrada.nextDouble();
+                aluno.setNota2(entrada.nextDouble());
 
                 System.out.print("Valor da nota3: ");
-                aluno.nota3 = entrada.nextDouble();
+                aluno.setNota3(entrada.nextDouble());
 
                 System.out.print("Valor da nota4: ");
-                aluno.nota4 = entrada.nextDouble();
+                aluno.setNota4(entrada.nextDouble());
 
                 System.out.print("Quantidade de aulas: ");
-                aluno.totalAulas = entrada.nextDouble();
+                aluno.setTotalAulas(entrada.nextDouble());
 
                 System.out.print("Quantidade de faltas: ");
-                aluno.faltas = entrada.nextDouble();
+                aluno.setFaltas(entrada.nextDouble());
 
                 aluno.media();
 //                aluno.mediaPresenca();
@@ -41,13 +41,13 @@ public class AulaTest {
                 Professor professor = new Professor();
 
                 System.out.print("Digite a quantidade total de alunos: ");
-                professor.totalAlunos = entrada.nextDouble();
+                professor.setTotalAlunos(entrada.nextDouble());
 
                 System.out.print("Digite a aquantidade de alunos aprovados:");
-                professor.alunosAprovados = entrada.nextDouble();
+                professor.setAlunosAprovados(entrada.nextDouble());
 
                 System.out.print("Digite a quantidade de aulas: ");
-                professor.totalAulas = entrada.nextDouble();
+                professor.setTotalAulas(entrada.nextDouble());
 
                 professor.promocao();
                 professor.bonificacao();

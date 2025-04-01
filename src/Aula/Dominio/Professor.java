@@ -2,9 +2,33 @@ package Aula.Dominio;
 
 public class Professor {
 
-    public double totalAlunos;
-    public double alunosAprovados;
-    public double totalAulas;
+    private double totalAlunos;
+    private double alunosAprovados;
+    private double totalAulas;
+
+    public double getTotalAlunos() {
+        return totalAlunos;
+    }
+
+    public void setTotalAlunos(double totalAlunos) {
+        this.totalAlunos = totalAlunos;
+    }
+
+    public double getAlunosAprovados() {
+        return alunosAprovados;
+    }
+
+    public void setAlunosAprovados(double alunosAprovados) {
+        this.alunosAprovados = alunosAprovados;
+    }
+
+    public double getTotalAulas() {
+        return totalAulas;
+    }
+
+    public void setTotalAulas(double totalAulas) {
+        this.totalAulas = totalAulas;
+    }
 
     public void promocao() {
         double mediaAprovados = (  alunosAprovados / totalAlunos) * 100;
