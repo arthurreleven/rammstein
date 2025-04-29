@@ -31,7 +31,7 @@ public class Funcionario extends Pessoa {
 
         System.out.println("Salário sem aumento: " + salario);
         salario = salario + (salario * 0.30);
-        System.out.println("Salário com aumento:" + salario);
+        System.out.println("Salário com aumento:" + salario + ", aumento de 30%");
 
     }
 
