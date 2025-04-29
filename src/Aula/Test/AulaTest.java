@@ -35,8 +35,8 @@ public class AulaTest {
                 aluno.setFaltas(entrada.nextDouble());
 
                 aluno.media();
-//                aluno.mediaPresenca();
                 break;
+
             case 2:
                 Professor professor = new Professor();
 
