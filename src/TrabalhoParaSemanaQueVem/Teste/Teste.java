@@ -15,7 +15,7 @@ public class Teste {
         Cliente cliente = new Cliente("Alex", 29, 7000,14);
 
 
-        System.out.println("Menu de Produtos:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
+        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
         int i = cliente.comprarProduto();
         cliente.desconto(i);
 
