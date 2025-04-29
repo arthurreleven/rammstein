@@ -16,8 +16,8 @@ public class Teste {
 
 
         System.out.println("Menu de Produtos:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
-        cliente.comprarProduto();
-        cliente.desconto();
+        int i = cliente.comprarProduto();
+        cliente.desconto(i);
 
 
     }

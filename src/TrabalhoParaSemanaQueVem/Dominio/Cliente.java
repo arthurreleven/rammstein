@@ -25,8 +25,8 @@ public class Cliente extends Pessoa {
     public int comprarProduto() {
         Scanner entrada = new Scanner(System.in);
         int opcaoProduto = validadorProduto();
-        int index = opcaoProduto -1;
-        switch (opcaoProduto){
+        int index = opcaoProduto - 1;
+        switch (opcaoProduto) {
             case 1:
                 produtos.get(0);
                 System.out.println(produtos.get(0));
@@ -57,16 +57,24 @@ public class Cliente extends Pessoa {
 
     }
 
-    public void reclamarPreco(){
+    public void reclamarPreco() {
         System.out.println("O preço tá caro.  VOTA NA PORRA DO LULA EM 2026 DE NOVO SEUS FILHOS DA PUTA, FAZ O L");
     }
 
-    public void desconto(){
-        for (int i = 0; i < produtos.size(); i++) {
-            Produto produtoSelecionado = produtos.get(i);
+    public void desconto(int indiceProduto) {
+        for (Produto produto : produtos) {
+            for (int i = 0; i < produtos.size(); i++) {
+                Produto produtoSelecionado = produtos.get(i);
+                if (i == indiceProduto) {
+                    double valorProduto = produto.getValorProduto();
+                    double valorProdutoDesconto = valorProduto - (valorProduto * 0.10);
+                    produtoSelecionado.setValorProduto(valorProdutoDesconto);
+                    System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto());
+                }
+            }
         }
-    }
 
+    }
 
 
     private static int validadorProduto() {
