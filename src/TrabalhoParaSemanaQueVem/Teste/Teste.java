@@ -8,13 +8,17 @@ import java.util.Scanner;
 
 public class Teste {
     public static void main(String[] args) {
-        Scanner entrada  = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         Funcionario funcionario = new Funcionario("Alex", 29, 2000, 1, 2000,"Pião de fabrica");
         Gerente gerente = new Gerente("Alex", 29, 3000, 5, 3000,"Gerente");
         Cliente cliente = new Cliente("Alex", 29, 7000,14);
 
-        System.out.println(funcionario);
+
+
+        cliente.comprarProduto();
+
+
     }
     private static int validador(){
         Scanner entrada = new Scanner(System.in);

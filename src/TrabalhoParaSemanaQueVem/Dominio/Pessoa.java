@@ -14,6 +14,16 @@ public abstract class Pessoa {
         this.quantidadeFilhos = quantidadeFilhos;
     }
 
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", renda=" + renda +
+                ", quantidadeFilhos=" + quantidadeFilhos +
+                '}';
+    }
+
     public String getNome() {
         return nome;
     }

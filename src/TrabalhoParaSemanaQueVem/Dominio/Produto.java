@@ -10,6 +10,14 @@ public class Produto {
         this.valorProduto = valorProduto;
     }
 
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "tipoProduto='" + tipoProduto + '\'' +
+                ", valorProduto=" + valorProduto +
+                '}';
+    }
+
     public String getTipoProduto() {
         return tipoProduto;
     }
