@@ -62,17 +62,16 @@ public class Cliente extends Pessoa {
     }
 
     public void desconto(int indiceProduto) {
-        for (Produto produto : produtos) {
-            for (int i = 0; i < produtos.size(); i++) {
-                Produto produtoSelecionado = produtos.get(i);
-                if (i == indiceProduto) {
-                    double valorProduto = produto.getValorProduto();
-                    double valorProdutoDesconto = valorProduto - (valorProduto * 0.10);
-                    produtoSelecionado.setValorProduto(valorProdutoDesconto);
-                    System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto());
-                }
+        for (int i = 0; i < produtos.size(); i++) {
+            Produto produtoSelecionado = produtos.get(i);
+            if (i == indiceProduto) {
+                double valorProduto = produtoSelecionado.getValorProduto();
+                double valorProdutoDesconto = valorProduto - (valorProduto * 0.10);
+                produtoSelecionado.setValorProduto(valorProdutoDesconto);
+                System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto());
             }
         }
+
 
     }
 
