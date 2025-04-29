@@ -13,8 +13,8 @@ public class Produto {
     @Override
     public String toString() {
         return "Produto{" +
-                "tipoProduto='" + tipoProduto + '\'' +
-                ", valorProduto=" + valorProduto +
+                "Tipo de produto = '" + tipoProduto + '\'' +
+                ", Valor do produto = " + valorProduto +
                 '}';
     }
 

@@ -16,17 +16,19 @@ public class Teste {
 
         funcionario.aumentoSalario();
         funcionario.mudarFuncao("Trabaiado");
-        System.out.println("------------------------------------");
+        System.out.println("---------------------------------------------------");
 
         gerente.demitirFuncionario(funcionario);
         gerente.pagarContas();
         gerente.aumentoSalario();
         gerente.mudarFuncao("Presidente");
 
+        System.out.println("---------------------------------------------------");
 
-//        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
-//        int i = cliente.comprarProduto();
-//        cliente.desconto(i);
+
+        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
+        int i = cliente.comprarProduto();
+        cliente.desconto(i);
 
 
     }
