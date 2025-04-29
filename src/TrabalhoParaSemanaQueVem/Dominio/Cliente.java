@@ -6,6 +6,13 @@ import java.util.Scanner;
 
 public class Cliente extends Pessoa {
 
+    public List<Produto> produtos = new ArrayList<>(List.of(
+            new Produto("Iphone", 5000),
+            new Produto("Notebook", 3700),
+            new Produto("Relogio Casia", 150),
+            new Produto("Tv", 7000),
+            new Produto("Geladeira", 2500)));
+
     public Cliente(String nome, int idade, double renda, int quantidadeFilhos) {
         super(nome, idade, renda, quantidadeFilhos);
     }
@@ -18,12 +25,6 @@ public class Cliente extends Pessoa {
     public void comprarProduto() {
         Scanner entrada = new Scanner(System.in);
         int opcaoProduto = validadorProduto();
-        List<Produto> produtos = new ArrayList<>();
-        produtos.add(new Produto("Iphone", 5000));
-        produtos.add(new Produto("Notebook", 3700));
-        produtos.add(new Produto("Relogio Casia", 150));
-        produtos.add(new Produto("Tv", 7000));
-        produtos.add(new Produto("Geladeira", 2500));
         System.out.println("Menu de Produtos:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
         switch (opcaoProduto){
             case 1:
