@@ -58,7 +58,7 @@ public class Cliente extends Pessoa {
     }
 
     public void reclamarPreco() {
-        System.out.println("O preço tá caro.  VOTA NA PORRA DO LULA EM 2026 DE NOVO SEUS FILHOS DA PUTA, FAZ O L");
+        System.out.println("O preço tá caro? \n  VOTA NA PORRA DO LULA EM 2026 DE NOVO SEUS FILHOS DA PUTA, FAZ O L");
     }
 
     public void desconto(int indiceProduto) {
