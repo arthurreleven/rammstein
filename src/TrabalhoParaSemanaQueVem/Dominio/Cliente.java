@@ -22,9 +22,10 @@ public class Cliente extends Pessoa {
         System.out.println("Cliente: " + getNome() + " Pagou as sua contas");
     }
 
-    public void comprarProduto() {
+    public int comprarProduto() {
         Scanner entrada = new Scanner(System.in);
         int opcaoProduto = validadorProduto();
+        int index = opcaoProduto -1;
         switch (opcaoProduto){
             case 1:
                 produtos.get(0);
@@ -51,7 +52,19 @@ public class Cliente extends Pessoa {
                 System.out.println(produtos.get(4));
                 break;
         }
+        return index;
 
+
+    }
+
+    public void reclamarPreco(){
+        System.out.println("O preço tá caro.  VOTA NA PORRA DO LULA EM 2026 DE NOVO SEUS FILHOS DA PUTA, FAZ O L");
+    }
+
+    public void desconto(){
+        for (int i = 0; i < produtos.size(); i++) {
+            Produto produtoSelecionado = produtos.get(i);
+        }
     }
 
 
