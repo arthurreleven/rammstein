@@ -6,6 +6,8 @@ public class Gerente extends  Funcionario {
         super(nome, idade, renda, quantidadeFilhos, salario, funcao);
     }
 
+
+
     @Override
     public void pagarContas() {
         System.out.println("Gerente: " + getNome() + " Pagou as sua contas");

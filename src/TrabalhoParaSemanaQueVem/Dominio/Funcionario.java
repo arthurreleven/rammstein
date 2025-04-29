@@ -12,6 +12,14 @@ public class Funcionario extends Pessoa {
     }
 
     @Override
+    public String toString() {
+        return "Funcionario{" +
+                "salario=" + salario +
+                ", funcao='" + funcao + '\'' +
+                '}';
+    }
+
+    @Override
     public void pagarContas() {
         System.out.println("Funcionario: " + getNome() + " Pagou as sua contas");
     }
