@@ -12,4 +12,9 @@ public class Gerente extends  Funcionario {
     public void pagarContas() {
         System.out.println("Gerente: " + getNome() + " Pagou as sua contas");
     }
+
+    public void demitirFuncionario(Funcionario funcionario){
+        System.out.println(funcionario + " DEMITIDO");
+    }
+
 }

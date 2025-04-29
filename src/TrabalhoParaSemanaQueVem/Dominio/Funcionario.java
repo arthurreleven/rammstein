@@ -1,5 +1,7 @@
 package TrabalhoParaSemanaQueVem.Dominio;
 
+import java.util.Scanner;
+
 public class Funcionario extends Pessoa {
 
     private double salario;
@@ -32,6 +34,7 @@ public class Funcionario extends Pessoa {
 
     }
 
+
     public String mudarFuncao(String novaFuncao) {
         this.funcao = novaFuncao;
         System.out.println(novaFuncao);
@@ -53,4 +56,5 @@ public class Funcionario extends Pessoa {
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
+
 }

@@ -68,7 +68,7 @@ public class Cliente extends Pessoa {
                 double valorProduto = produtoSelecionado.getValorProduto();
                 double valorProdutoDesconto = valorProduto - (valorProduto * 0.10);
                 produtoSelecionado.setValorProduto(valorProdutoDesconto);
-                System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto());
+                System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto() + " Desconto foi de 10%, pra você que não percebeu!!!");
             }
         }
 

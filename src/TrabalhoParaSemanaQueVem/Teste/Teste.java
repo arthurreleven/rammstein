@@ -13,14 +13,16 @@ public class Teste {
         Funcionario funcionario = new Funcionario("Alex", 29, 2000, 1, 2000,"Pião de fabrica");
         Gerente gerente = new Gerente("Alex", 29, 3000, 5, 3000,"Gerente");
         Cliente cliente = new Cliente("Alex", 29, 7000,14);
-
-        funcionario.aumentoSalario();
-
-
-//        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
-//        int i = cliente.comprarProduto();
-//        cliente.desconto(i);
 //
+//        funcionario.aumentoSalario();
+//        funcionario.mudarFuncao("Trabaiado");
+//        gerente.demitirFuncionario(funcionario.se);
+//
+
+        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
+        int i = cliente.comprarProduto();
+        cliente.desconto(i);
+
 
     }
     private static int validador(){
