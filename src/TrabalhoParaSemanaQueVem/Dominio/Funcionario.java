@@ -15,9 +15,10 @@ public class Funcionario extends Pessoa {
 
     @Override
     public String toString() {
-        return "Funcionario{" +
-                "salario=" + salario +
-                ", funcao='" + funcao + '\'' +
+        return "Funcionario{"+
+                "Nome = " + getNome() +
+                ", salario = " + salario +
+                ", funcao = '" + funcao + '\'' +
                 '}';
     }
 

@@ -24,13 +24,19 @@ public abstract class Pessoa {
                 '}';
     }
 
+    public void pagarContas() {
+        System.out.println();
+    }
+
+    public void imprime(){
+
+    }
+
     public String getNome() {
         return nome;
     }
 
-    public void pagarContas() {
-        System.out.println();
-    }
+
 
     public void setNome(String nome) {
         this.nome = nome;
