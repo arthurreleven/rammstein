@@ -25,7 +25,6 @@ public class Cliente extends Pessoa {
     public void comprarProduto() {
         Scanner entrada = new Scanner(System.in);
         int opcaoProduto = validadorProduto();
-        System.out.println("Menu de Produtos:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
         switch (opcaoProduto){
             case 1:
                 produtos.get(0);
