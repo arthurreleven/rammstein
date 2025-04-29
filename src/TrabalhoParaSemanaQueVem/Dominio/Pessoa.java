@@ -19,7 +19,7 @@ public class Pessoa {
     }
 
     public void pagarContas() {
-
+        System.out.println();
     }
 
     public void setNome(String nome) {

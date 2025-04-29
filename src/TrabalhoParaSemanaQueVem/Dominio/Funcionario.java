@@ -5,9 +5,15 @@ public class Funcionario extends Pessoa {
     private double salario;
     private String funcao;
 
-    public Funcionario(double salario, String funcao) {
+    public Funcionario(String nome, int idade, double renda, int quantidadeFilhos, double salario, String funcao) {
+        super(nome, idade, renda, quantidadeFilhos);
         this.salario = salario;
         this.funcao = funcao;
+    }
+
+    @Override
+    public void pagarContas() {
+        System.out.println("Funcionario: " + getNome() + " Pagou as sua contas");
     }
 
     public void aumentoSalario() {
@@ -18,7 +24,7 @@ public class Funcionario extends Pessoa {
 
     }
 
-    public String mudarFuncao(String novaFuncao){
+    public String mudarFuncao(String novaFuncao) {
         this.funcao = novaFuncao;
         System.out.println(novaFuncao);
         return novaFuncao;
