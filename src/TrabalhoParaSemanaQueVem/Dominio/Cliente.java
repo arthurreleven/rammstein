@@ -1,5 +1,7 @@
 package TrabalhoParaSemanaQueVem.Dominio;
 
+import javax.swing.*;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -24,9 +26,17 @@ public class Cliente extends Pessoa {
         System.out.println("Cliente: " + getNome() + " Pagou as sua contas");
     }
 
-    public int comprarProduto() {
-        Scanner entrada = new Scanner(System.in);
-        int opcaoProduto = validadorProduto();
+    public int comprarProduto(String opcao) {
+        int opcaoProduto;
+
+        try {
+            opcaoProduto = Integer.parseInt(opcao);
+
+        }catch (NumberFormatException e){
+            JOptionPane.showMessageDialog(null,"Opção invalida, escolha de 1 a 7");
+            return -1;
+        }
+
         int index = opcaoProduto - 1;
         switch (opcaoProduto) {
             case 1:
@@ -88,15 +98,5 @@ public class Cliente extends Pessoa {
     }
 
 
-    private static int validadorProduto() {
-        Scanner entrada = new Scanner(System.in);
-        int opcao = entrada.nextInt();
-        if (opcao == 1 || opcao == 2 || opcao == 3 || opcao == 4 || opcao == 5) {
-            return opcao;
-        } else {
-            System.out.println("Opção invalida");
-        }
-        return opcao;
 
-    }
 }
