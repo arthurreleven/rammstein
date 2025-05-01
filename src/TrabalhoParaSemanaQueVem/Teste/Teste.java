@@ -4,6 +4,7 @@ import TrabalhoParaSemanaQueVem.Dominio.Cliente;
 import TrabalhoParaSemanaQueVem.Dominio.Funcionario;
 import TrabalhoParaSemanaQueVem.Dominio.Gerente;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Teste {
@@ -26,9 +27,11 @@ public class Teste {
         System.out.println("---------------------------------------------------");
 
 
-        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira");
+        System.out.println("Menu de produtos para ser comprados:\n1 - Iphone\n2 - Notebook\n3 - Relogio Casio\n4 - Tv\n5 - Geladeira\n6 - Ps5\n7 - Carro");
         int i = cliente.comprarProduto();
         cliente.desconto(i);
+
+
 
 
     }

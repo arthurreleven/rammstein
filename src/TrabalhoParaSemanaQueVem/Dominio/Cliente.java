@@ -11,7 +11,9 @@ public class Cliente extends Pessoa {
             new Produto("Notebook", 3700),
             new Produto("Relogio Casia", 150),
             new Produto("Tv", 7000),
-            new Produto("Geladeira", 2500)));
+            new Produto("Geladeira", 2500),
+            new Produto("Ps5", 5700),
+            new Produto("Carro", 10_000)));
 
     public Cliente(String nome, int idade, double renda, int quantidadeFilhos) {
         super(nome, idade, renda, quantidadeFilhos);
@@ -51,6 +53,16 @@ public class Cliente extends Pessoa {
                 produtos.get(4);
                 System.out.println(produtos.get(4));
                 break;
+
+            case 6:
+                produtos.get(5);
+                System.out.println(produtos.get(5));
+                break;
+
+            case 7:
+                produtos.get(6);
+                System.out.println(produtos.get(6));
+                break;
         }
         return index;
 
@@ -58,7 +70,7 @@ public class Cliente extends Pessoa {
     }
 
     public void reclamarPreco() {
-        System.out.println("O preço tá caro? \n  VOTA NA PORRA DO LULA EM 2026 DE NOVO SEUS FILHOS DA PUTA, FAZ O L");
+        System.out.println("O preço tá caro !!");
     }
 
     public void desconto(int indiceProduto) {
@@ -68,7 +80,7 @@ public class Cliente extends Pessoa {
                 double valorProduto = produtoSelecionado.getValorProduto();
                 double valorProdutoDesconto = valorProduto - (valorProduto * 0.10);
                 produtoSelecionado.setValorProduto(valorProdutoDesconto);
-                System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto() + " Desconto foi de 10%, pra você que não percebeu!!!");
+                System.out.println("Valor do produto com desconto: " + produtoSelecionado.getValorProduto() + " Desconto foi de 10% !!!");
             }
         }
 
