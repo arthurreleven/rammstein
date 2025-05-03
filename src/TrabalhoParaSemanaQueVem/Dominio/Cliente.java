@@ -1,10 +1,10 @@
 package TrabalhoParaSemanaQueVem.Dominio;
 
 import javax.swing.*;
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+
 
 public class Cliente extends Pessoa {
 
@@ -16,6 +16,8 @@ public class Cliente extends Pessoa {
             new Produto("Geladeira", 2500),
             new Produto("Ps5", 5700),
             new Produto("Carro", 10_000)));
+
+
 
     public Cliente(String nome, int idade, double renda, int quantidadeFilhos) {
         super(nome, idade, renda, quantidadeFilhos);
