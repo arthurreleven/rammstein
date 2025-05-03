@@ -27,7 +27,7 @@ public List<String> funcoes = new ArrayList<>(List.of("Gerente regional", "Geren
     public String toString() {
         return "Gerente{" +
              "Nome = " + getNome() +
-                ", Idade =" + getIdade() +
+                ", Idade = " + getIdade() +
                 ", Renda = " + getRenda() +
                 ", Quantidade de filhos = " + getQuantidadeFilhos() +
                 ", Salário = " + getSalario() +
