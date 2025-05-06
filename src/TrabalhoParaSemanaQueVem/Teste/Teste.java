@@ -47,6 +47,8 @@ public class Teste {
                 break;
 
         }
+
+            
     }
 
     private static int validador() {

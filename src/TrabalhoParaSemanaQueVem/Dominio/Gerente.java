@@ -3,6 +3,7 @@ package TrabalhoParaSemanaQueVem.Dominio;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Gerente extends Funcionario {
 
@@ -138,5 +139,18 @@ public List<String> funcoes = new ArrayList<>(List.of("Gerente regional", "Geren
                 break;
         }
         return index;
+
+
+    }
+    public int validador() {
+        Scanner entrada = new Scanner(System.in);
+        int opcao = entrada.nextInt();
+        if (opcao == 1 || opcao == 2 || opcao == 3) {
+            return opcao;
+        } else {
+            System.out.println("Opção invalida");
+        }
+        return opcao;
+
     }
 }
